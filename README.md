@@ -35,3 +35,24 @@ vendor|Composer 依赖模块
 webpack.mix.js|	Laravel 的前端工作流配置文件
 yarn.lock|Yarn 依赖版本锁定文件
 .env|环境变量配置文件
+
+#### Artisan 命令
+命令|说明
+----|----|
+php artisan key:generate|生成 App Key
+php artisan make:controller|生成控制器
+php artisan make:model|生成模型
+php artisan make:policy|生成授权策略
+php artisan make:seeder|生成 Seeder 文件
+php artisan migrate|执行迁移
+php artisan migrate:rollback|回滚迁移
+php artisan migrate:refresh|重置数据库
+php artisan db:seed|填充数据库
+php artisan tinker|进入 tinker 环境
+php artisan route:list|查看路由列表
+
+```bash
+# help 查看帮助界面
+php artisan help migrate
+```
+
